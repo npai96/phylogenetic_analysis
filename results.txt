@@ -1,0 +1,44 @@
+Analyzing unrelated/unrelated_msa.fasta:
+Comparing Parismony Tree to UPGMA Tree:
+{'rf': 0.0, 'max_rf': 2.0, 'ref_edges_in_source': 1.0, 'source_edges_in_ref': 1.0, 'effective_tree_size': 3, 'norm_rf': 0.0, 'treeko_dist': 'NA', 'source_subtrees': 1, 'common_edges': {('ThaleCress', 'Yeast'), ('FruitFly', 'ThaleCress', 'Yeast')}, 'source_edges': {('ThaleCress', 'Yeast'), ('FruitFly', 'ThaleCress', 'Yeast')}, 'ref_edges': {('ThaleCress', 'Yeast'), ('FruitFly', 'ThaleCress', 'Yeast')}}
+Bootstrap Analysis for 300 resamples:
+Average Branch Support Value for UPGMA Tree: 100.0
+Average Branch Support for Maximum Parsimony Tree: 100.0
+
+
+
+Analyzing moderately_related/moderately_related_msa.fasta:
+Comparing Parismony Tree to UPGMA Tree:
+{'rf': 0.0, 'max_rf': 8.0, 'ref_edges_in_source': 1.0, 'source_edges_in_ref': 1.0, 'effective_tree_size': 6, 'norm_rf': 0.0, 'treeko_dist': 'NA', 'source_subtrees': 1, 'common_edges': {('NileTilapia', 'NorthernPike', 'Salmon'), ('AtlanticCod', 'NileTilapia', 'NorthernPike', 'Salmon', 'ThreeSpinedStickleback', 'ZebraFish'), ('AtlanticCod', 'NileTilapia', 'NorthernPike', 'Salmon'), ('NorthernPike', 'Salmon'), ('ThreeSpinedStickleback', 'ZebraFish')}, 'source_edges': {('NileTilapia', 'NorthernPike', 'Salmon'), ('AtlanticCod', 'NileTilapia', 'NorthernPike', 'Salmon'), ('AtlanticCod', 'NileTilapia', 'NorthernPike', 'Salmon', 'ThreeSpinedStickleback', 'ZebraFish'), ('NorthernPike', 'Salmon'), ('ThreeSpinedStickleback', 'ZebraFish')}, 'ref_edges': {('NileTilapia', 'NorthernPike', 'Salmon'), ('AtlanticCod', 'NileTilapia', 'NorthernPike', 'Salmon'), ('AtlanticCod', 'NileTilapia', 'NorthernPike', 'Salmon', 'ThreeSpinedStickleback', 'ZebraFish'), ('NorthernPike', 'Salmon'), ('ThreeSpinedStickleback', 'ZebraFish')}}
+Bootstrap Analysis for 100 resamples:
+Average Branch Support Value for UPGMA Tree: 100.0
+Average Branch Support for Maximum Parsimony Tree: 100.0
+
+
+
+Analyzing related/related_msa.fasta:
+Comparing Parismony Tree to UPGMA Tree:
+{'rf': 'NA', 'max_rf': 0.0, 'ref_edges_in_source': 'NA', 'source_edges_in_ref': 'NA', 'effective_tree_size': 2, 'norm_rf': 'NA', 'treeko_dist': 'NA', 'source_subtrees': 1, 'common_edges': {('EurasianTreeSparrow', 'HouseSparrow')}, 'source_edges': {('EurasianTreeSparrow', 'HouseSparrow')}, 'ref_edges': {('EurasianTreeSparrow', 'HouseSparrow')}}
+Bootstrap Analysis for 100 resamples:
+Average Branch Support Value for UPGMA Tree: 100.0
+Average Branch Support for Maximum Parsimony Tree: 100.0
+
+
+
+Analyzing all/all_msa.fasta:
+Comparing Parismony Tree to UPGMA Tree:
+{'rf': 6.0, 'max_rf': 18.0, 'ref_edges_in_source': 0.6666666666666666, 'source_edges_in_ref': 0.6666666666666666, 'effective_tree_size': 11, 'norm_rf': 0.3333333333333333, 'treeko_dist': 'NA', 'source_subtrees': 1, 'common_edges': {('EurasianTreeSparrow', 'HouseSparrow', 'ThreeSpinedStickleback', 'ZebraFish'), ('AtlanticCod', 'FruitFly', 'NileTilapia', 'NorthernPike', 'Salmon', 'ThaleCress', 'Yeast'), ('NileTilapia', 'NorthernPike', 'Salmon'), ('AtlanticCod', 'EurasianTreeSparrow', 'FruitFly', 'HouseSparrow', 'NileTilapia', 'NorthernPike', 'Salmon', 'ThaleCress', 'ThreeSpinedStickleback', 'Yeast', 'ZebraFish'), ('NorthernPike', 'Salmon'), ('EurasianTreeSparrow', 'HouseSparrow', 'ThreeSpinedStickleback'), ('AtlanticCod', 'NileTilapia', 'NorthernPike', 'Salmon')}, 'source_edges': {('EurasianTreeSparrow', 'HouseSparrow', 'ThreeSpinedStickleback', 'ZebraFish'), ('AtlanticCod', 'FruitFly', 'NileTilapia', 'NorthernPike', 'Salmon', 'ThaleCress', 'Yeast'), ('EurasianTreeSparrow', 'ThreeSpinedStickleback'), ('NileTilapia', 'NorthernPike', 'Salmon'), ('NorthernPike', 'Salmon'), ('AtlanticCod', 'EurasianTreeSparrow', 'FruitFly', 'HouseSparrow', 'NileTilapia', 'NorthernPike', 'Salmon', 'ThaleCress', 'ThreeSpinedStickleback', 'Yeast', 'ZebraFish'), ('EurasianTreeSparrow', 'HouseSparrow', 'ThreeSpinedStickleback'), ('ThaleCress', 'Yeast'), ('AtlanticCod', 'NileTilapia', 'NorthernPike', 'Salmon'), ('FruitFly', 'ThaleCress', 'Yeast')}, 'ref_edges': {('EurasianTreeSparrow', 'HouseSparrow', 'ThreeSpinedStickleback', 'ZebraFish'), ('AtlanticCod', 'NileTilapia', 'NorthernPike', 'Salmon', 'ThaleCress', 'Yeast'), ('AtlanticCod', 'NileTilapia', 'NorthernPike', 'Salmon', 'Yeast'), ('AtlanticCod', 'FruitFly', 'NileTilapia', 'NorthernPike', 'Salmon', 'ThaleCress', 'Yeast'), ('NileTilapia', 'NorthernPike', 'Salmon'), ('HouseSparrow', 'ThreeSpinedStickleback'), ('AtlanticCod', 'EurasianTreeSparrow', 'FruitFly', 'HouseSparrow', 'NileTilapia', 'NorthernPike', 'Salmon', 'ThaleCress', 'ThreeSpinedStickleback', 'Yeast', 'ZebraFish'), ('NorthernPike', 'Salmon'), ('EurasianTreeSparrow', 'HouseSparrow', 'ThreeSpinedStickleback'), ('AtlanticCod', 'NileTilapia', 'NorthernPike', 'Salmon')}}
+Bootstrap Analysis for 300 resamples:
+Average Branch Support Value for UPGMA Tree: 100.0
+Average Branch Support for Maximum Parsimony Tree: 100.0
+
+
+Analyzing moderately_related/moderately_related_msa.fasta:
+Distance Matrix:
+ThreeSpinedStickleback  0.000000
+AtlanticCod 0.915637    0.000000
+ZebraFish   0.368082    0.706072    0.000000
+NileTilapia 0.913487    0.069855    0.703923    0.000000
+Salmon  0.909726    0.068243    0.695325    0.039764    0.000000
+NorthernPike    0.908651    0.068243    0.695862    0.048898    0.033853    0.000000
+    ThreeSpinedStickleback  AtlanticCod ZebraFish   NileTilapia Salmon  NorthernPike
